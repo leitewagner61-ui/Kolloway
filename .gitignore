@@ -1,0 +1,15 @@
+# Arquivos locais e credenciais
+.DS_Store
+Thumbs.db
+Desktop.ini
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+node_modules/
+.openai/
+.vscode/
+.idea/
+work/
