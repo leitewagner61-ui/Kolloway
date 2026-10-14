@@ -50,7 +50,7 @@ O GitHub Pages não foi configurado neste pacote: o GitHub pode servir como repo
 ## Editar
 
 - Textos e seções: `index.html`.
-- Preços, volumes e benefícios: lista `plans` em `app.js`.
+- Preços, volumes e benefícios: atualize a lista `plans` em `app.js` e os quatro cartões correspondentes em `index.html`, dentro de `#plan-grid`. Os valores devem permanecer iguais nas duas versões.
 - WhatsApp: função `contactUrl` em `app.js` e links de fallback no HTML.
 - Aparência: `styles.css`.
 - Após mudanças relevantes na página, atualize `lastmod` em `sitemap.xml` com a data real da alteração.
@@ -67,3 +67,9 @@ Abra a página no celular e no computador; verifique os quatro planos, o menu, o
 ## Estado da entrega
 
 Arquivos preparados localmente. Nenhum repositório remoto foi criado, nenhum envio ao GitHub foi realizado e nenhum DNS foi alterado por este pacote.
+
+## SEO e buscas com IA
+
+Título e descrição resumem a oferta paga. Os dados estruturados identificam a organização, o site e a página, usando o domínio oficial. Os quatro planos estão no HTML inicial, com os mesmos valores da versão renderizada por JavaScript. Nenhuma lista oculta de palavras-chave foi inserida.
+
+Não há marcação especial que garanta recomendações por IA. Preserve conteúdo claro, acessível e coerente com o serviço efetivamente entregue. Após publicar, solicite o rastreamento da URL e envie o sitemap no Google Search Console.
